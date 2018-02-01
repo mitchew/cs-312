@@ -56,10 +56,22 @@ int main()
     cout << "Number of double scoop cones sold: " << medium_sold << endl;
     cout << "Number of triple scoop cones sold: " << large_sold << endl;
     cout << endl;
-    cout << setw(20) << left << "DeLIGHTful cones" << setw(6) << right << small_sold << setw(11) << right << small_total << endl;
-    cout << setw(20) << left << "Double DeLIGHT cones" << setw(6) << right << medium_sold << setw(11) << right << medium_total << endl;
-    cout << setw(20) << left << "Triple DeLIGHT cones" << setw(6) << right << large_sold << setw(11) << right << large_total << endl;
-    cout << setw(20) << left << "Total" << setw(6) << total_sold << setw(11) << total_price << endl;
+    cout << setw(20) << left << "DeLIGHTful cones"
+        << setw(6) << right << small_sold
+        << setw(4) << "$"
+        << setw(7) << right << fixed << setprecision(2) << small_total << endl;
+    cout << setw(20) << left << "Double DeLIGHT cones" <<
+        setw(6) << right << medium_sold <<
+        setw(4) << right << "$" <<
+        setw(7) << right << fixed << setprecision(2) << medium_total << endl;
+    cout << setw(20) << left << "Triple DeLIGHT cones" <<
+        setw(6) << right << large_sold <<
+        setw(4) << right << "$" <<
+        setw(7) << right << fixed << setprecision(2) << large_total << endl;
+    cout << setw(20) << left << "Total" <<
+        setw(6) << right << total_sold <<
+        setw(4) << "$" <<
+        setw(7) << fixed << setprecision(2) << total_price << endl;
 
     return 0;
 }
