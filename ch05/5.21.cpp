@@ -7,9 +7,8 @@ int main()
     int max_width;
     int breakpoint = false;
 
+    cout << "Diamond width: ";
     cin >> max_width;
-
-    cout << "Diamond Width: " << max_width << endl;
     
     for (int i = 1; i <= max_width; i += 2)
     {
@@ -31,7 +30,7 @@ int main()
         cout << endl;
     }
 
-    for (int i = (max_width / 2); i >= 0; i -= 2)
+    for (int i = (max_width - 2); i >= 0; i -= 2)
     {
         int whitespace;
 
