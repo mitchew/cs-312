@@ -13,14 +13,13 @@ int main()
 
     cout << "PRAIRIEVILLE POPULATION GROWTH" << endl;
     cout << "(each * represents 1000 people)" << endl;
-    cout << "\n";
 
     while (inFile >> line)
     {
         if (line < 0)
         {
             cout << "BAD DATA";
-            exit;
+            break;
         }
         switch (count)
         {
