@@ -1,10 +1,11 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main()
 {
-    int starting_number = 0;
+    double starting_number = 0;
     double increase = 0.0;
     int days = 0;
 
@@ -20,7 +21,7 @@ int main()
 
     do
     {
-        cout << "Enter the average daily increase as a fraction (0.052 = 5.2\% per day): ";
+        cout << "Enter the average daily population increase (as a percentage): ";
         cin >> increase;
         if (increase < 0)
         {
@@ -30,7 +31,7 @@ int main()
 
     do
     {
-        cout << "Enter the days: ";
+        cout << "Enter the number of days they will multiply: ";
         cin >> days;
         if (days < 1)
         {
@@ -38,11 +39,10 @@ int main()
         }
     } while (days < 1);
 
-    for (int i = 0; i < days; i++)
+    for (int i = 1; i <= days; i++)
     {
         starting_number = starting_number + (starting_number * increase);
-        cout << "Population on day " << i << ": " << starting_number << endl;
+        cout << "On day " << i << " the population size was ";
+        cout << setprecision(0) << fixed << starting_number << "." << endl;
     }
-
-
 }
