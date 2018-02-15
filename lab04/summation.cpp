@@ -1,6 +1,6 @@
 // Lab 5 - summation.cpp
 // This program displays a series of terms and computes its sum.
-// PUT YOUR NAME HERE.
+// author: mitchell wilson
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -17,23 +17,21 @@ int main()
 
     // WRITE THE CODE TO START A FOR LOOP THAT LOOPS ONCE FOR EACH TERM.
     // I.E., FOR TERMS WITH DENOMINATORS FROM 2 TO THE FINAL DENOMINATOR.
-    for (denom = 2; denom <= finalDenom; denom += 1)
+    for (denom = 1; denom <= finalDenom; denom += 1)
     {
-        sum = 0;
         // WRITE THE CODE TO PRINT THIS TERM.
         // IF IT IS NOT THE LAST TERM, FOLLOW IT WITH A +.
         // IF IT IS THE LAST TERM, FOLLOW IT WITH A =.
         if (denom != finalDenom)
         {
-            cout << "1/" << denom << "^" << finalDenom << " + ";
+            cout << "1/" << pow(2, denom) << " + ";
         }
         else
         {
-            cout << "1/" << denom << "^" << finalDenom << endl;
+            cout << "1/" << pow(2, denom) << endl;
         }
         // WRITE THE CODE TO ADD THE VALUE OF THIS TERM TO THE ACCUMULATOR.
-        for (int i = 0; i < )
-        sum += (1.0 / (denom * denom));
+        sum += (1.0 / pow(2, denom));
     }
 
     // WRITE A LINE OF CODE TO PRINT THE SUM.
