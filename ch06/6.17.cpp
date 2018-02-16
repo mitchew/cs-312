@@ -96,13 +96,13 @@ int main()
         if (i == 1)
         {
             current_size = start_pop;
-            projected_size = start_pop * (1 + birth_rate) * (1 - death_rate);
+            projected_size = start_pop * (1.0 + birth_rate) * (1.0 - death_rate);
         }
         else
         {
-            projected_size = current_size * (1 + birth_rate) * (1 - death_rate);
+            projected_size = current_size * (1.0 + birth_rate) * (1.0 - death_rate);
         }
-        projected_size = ceil(projected_size);
+        projected_size = round(projected_size);
         cout << "Year " << i << ": " << current_size << " " << projected_size << endl;
         current_size = projected_size;
     }
