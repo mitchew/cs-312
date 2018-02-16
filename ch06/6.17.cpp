@@ -12,6 +12,7 @@
  */
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -21,12 +22,15 @@ int starting_population_entry()
 
     do
     {
-        cout << "What is the starting population size (minimum of 2): ";
+        cout << "Enter starting population size: ";
         cin >> start_pop;
+        cin.ignore();
+
         if (start_pop < 2)
         {
             cout << "Starting population must be at least 2" << endl;
         }
+
     } while (start_pop < 2);
 
     return start_pop;
@@ -36,10 +40,11 @@ double birth_rate_entry()
 {
     double birth_rate = 0.0;
 
-    cout << "What is the annual birth rate per 1000: ";
+    cout << "Enter annual birth rate: ";
     cin >> birth_rate;
+    cin.ignore();
 
-    birth_rate = 1000 / birth_rate;
+    birth_rate = birth_rate / 1000;
 
     return birth_rate;
 }
@@ -48,10 +53,11 @@ double death_rate_entry()
 {
     double death_rate = 0.0;
 
-    cout << "What is the annual death rate per 1000: ";
+    cout << "Enter annual death rate: ";
     cin >> death_rate;
+    cin.ignore();
 
-    death_rate = 1000 / death_rate;
+    death_rate = death_rate / 1000;
 
     return death_rate;
 }
@@ -62,12 +68,15 @@ int years_entry()
 
     do
     {
-        cout << "Enter the number of years to model: ";
+        cout << "Enter years to display: ";
         cin >> years;
+        cin.ignore();
+
         if (years < 1)
         {
             cout << "Years must be at least 1" << endl;
         }
+
     } while (years < 1);
 
     return years;
@@ -79,11 +88,24 @@ int main()
     double birth_rate = birth_rate_entry();
     double death_rate = death_rate_entry();
     int years = years_entry();
+    double current_size = 0.0;
+    double projected_size = 0.0;
 
-    double new_size = 0.0;
+    for (int i = 1; i <= years; i++)
+    {
+        if (i == 1)
+        {
+            current_size = start_pop;
+            projected_size = start_pop * (1 + birth_rate) * (1 - death_rate);
+        }
+        else
+        {
+            projected_size = current_size * (1 + birth_rate) * (1 - death_rate);
+        }
+        projected_size = ceil(projected_size);
+        cout << "Year " << i << ": " << current_size << " " << projected_size << endl;
+        current_size = projected_size;
+    }
 
-    new_size = start_pop * (1 + birth_rate) * (1 - death_rate);
-
-    cout << new_size;
-
+    return 0;
 }
