@@ -5,7 +5,7 @@
 using namespace std;
 
 // Function prototype
-void swapNums(int, int);
+void swapNums(int &, int &);
 
 /*****     main     *****/
 int main()
@@ -29,7 +29,7 @@ int main()
 }
 
 /*****     swapNums     *****/
-void swapNums(int a, int b)   
+void swapNums(int &a, int &b)   
 {  // Parameter a receives num1 and parameter b receives num2
    // Swap the values that came into parameters a and b
    int temp = a;
