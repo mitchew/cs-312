@@ -1,4 +1,4 @@
-// Lab 5 areas3.cpp
+// Lab 5 areas4.cpp
 // WRITE A COMMENT BRIEFLY DESCRIBING THE PROGRAM.
 // This program will give the user an option of computing the area of a square, circle or right triangle
 // PUT YOUR NAME HERE.
@@ -8,9 +8,10 @@
 using namespace std;
 
 void displayMenu();
-void findSquareArea();
-void findCircleArea();
-void findTriangleArea();
+int getChoice(int, int);
+double findSquareArea();
+double findCircleArea();
+double findTriangleArea();
 
 int main()
 {
@@ -41,26 +42,27 @@ int main()
         // BE DISPLAYED.
         if (choice == 1)
         {
-            findSquareArea();
+            cout << "Area = " << findSquareArea() << endl;
         }
         else if (choice == 2)
         {
-            findCircleArea();
+            cout << "Area = " << findCircleArea() << endl;
         }
         else if (choice == 3)
         {
-            findTriangleArea();
+            cout << "Area = " << findTriangleArea() << endl;
         }
         else if (choice == 4)
         {
             cout << "Program ending.";
             exit;
         }
-        else
-        {
-            cout << "The valid choices are 1 through 4. Run the" << endl;
-            cout << "program again and select one of those.";
-        }
+        // this is unecessary as the choices are validated by getChoice()
+        // else
+        // {
+        //     cout << "The valid choices are 1 through 4. Run the" << endl;
+        //     cout << "program again and select one of those.";
+        // }
     } while (choice != 4);
     
     return 0;
@@ -78,7 +80,7 @@ void displayMenu()
     cout << "Enter your choice (1-4): ";
 }
 
-void findSquareArea()
+double findSquareArea()
 {
     double length;
     double width;
@@ -95,7 +97,8 @@ void findSquareArea()
     {
         cout << endl;
         area = length * width;
-        cout << "The area is " << area;
+        // cout << "The area is " << area;
+        return area;
     }
     else
     {
@@ -104,7 +107,7 @@ void findSquareArea()
     }
 }
 
-void findCircleArea()
+double findCircleArea()
 {
     double radius;
     double area;
@@ -117,7 +120,8 @@ void findCircleArea()
     if (radius > 0)
     {
         area = 3.14159 * (radius * radius);
-        cout << "The area is " << area;
+        // cout << "The area is " << area;
+        return area;
     }
     else if (radius < 0)
     {
@@ -125,7 +129,7 @@ void findCircleArea()
     }
 }
 
-void findTriangleArea()
+double findTriangleArea()
 {
     double base;
     double height;
@@ -141,7 +145,8 @@ void findTriangleArea()
     {
         cout << endl;
         area = base * height * .5;
-        cout << "The area is " << area;
+        // cout << "The area is " << area;
+        return area;
     }
     else
     {
