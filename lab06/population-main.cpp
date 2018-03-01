@@ -1,5 +1,6 @@
 #include <iostream>
-#include <iomainp>
+#include <iomanip>
+#include "Pop.cpp"
 
 using namespace std;
 
@@ -32,6 +33,8 @@ int main()
 
     cout << "enter annual number of deaths: ";
     cin >> numDeaths;
+
+    myTown.setBirths(numBirths);
 
     while (numDeaths < 0)
     {
