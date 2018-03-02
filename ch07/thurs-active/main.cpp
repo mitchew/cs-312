@@ -1,22 +1,7 @@
 #include <iostream>
+#include "DFA.h"
 
 using namespace std;
-
-class DFA
-{
-  private:
-    float *ptr;
-    int index;
-
-  public:
-    DFA(int size) : index(size) { ptr = new float[size]; }
-    ~DFA() { delete ptr; }
-    void setI(int, float);
-    float getI(int);
-    float getHi();
-    float getLow();
-    float getAvg();
-};
 
 int main()
 {
@@ -37,18 +22,3 @@ int main()
     cout << "Calling getAvg returns the average of the array as: " << fArray1.getAvg() << endl;
     return 0;
 }
-
-void DFA::setI(int a, float b)
-{
-
-}
-float DFA::getI(int a)
-{
-    
-}
-float DFA::getHi()
-{}
-float DFA::getLow()
-{}
-float DFA::getAvg()
-{}

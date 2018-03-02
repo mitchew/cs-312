@@ -20,12 +20,12 @@
 class DFA
 {
   private:
-    float * ptr;
+    float * nums;
     int index;
 
   public:
-    DFA(int size) : index(size) { ptr = new float[size]; }
-    ~DFA() { delete ptr; }
+    DFA(int);
+    ~DFA();
     void setI(int, float);
     float getI(int);
     float getHi();
