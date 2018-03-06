@@ -26,7 +26,7 @@ void displayCharges(PatientAccount, Surgery, Pharmacy);
 int main()
 {
 	PatientAccount patient1;       // Create a PatientAccount object
-	Surgery  surgery;              // Create a Surgery object
+	Surgery surgery;              // Create a Surgery object
 	Pharmacy pharmacy;             // Create a Pharmacy object
 	int surtype, medtype;
 	char hadSurgery,               // Did patient have surgery (Y/N)? 

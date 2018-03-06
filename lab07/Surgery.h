@@ -8,6 +8,7 @@ class Surgery
     double charge;
 
     public:
+    Surgery();
     void updateAccount(PatientAccount&, int);
     double getSurgeryCharge();
 };

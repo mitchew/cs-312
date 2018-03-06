@@ -8,13 +8,20 @@ class PatientAccount
 {
 private:
     int daysStayed;
-    double dailyRate;
+    int dailyRate;
+    int surgeryCharge;
+    int pharmacyCharge;
 
 public:
+    PatientAccount();
     void setDays();
     int getDays();
-    void setDailyRate(double);
-    double getDailyRate();
+    void addSurgeryCharge(int);
+    int getSurgeryCharge();
+    void addPharmacyCharge(int);
+    int getPharmacyCharge();
+    void setDailyRate(int);
+    int getDailyRate();
     double getTotalCharges();
     void updateAccount(PatientAccount&, int);
 };

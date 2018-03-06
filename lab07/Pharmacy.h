@@ -8,6 +8,7 @@ class Pharmacy
     double pharmacyCharge;
 
     public:
+    Pharmacy();
     void updateAccount(PatientAccount&, int);
     double getPharmacyCharge();
 };
