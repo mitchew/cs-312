@@ -71,8 +71,8 @@ void displayReport(string name[], int sales[], int sold)
     }
     cout << endl;
     cout << "Total Sales: " << sold << endl;
-    cout << "High Seller: " << endl;
-    cout << "Low Seller : " << endl;
+    cout << "High Seller: " << name[posOfLargest(sales)] << endl;
+    cout << "Low Seller : " << name[posOfSmallest(sales)] << endl;
 }
 
 /************************************************************
@@ -83,8 +83,17 @@ void displayReport(string name[], int sales[], int sold)
  ************************************************************/
 int posOfLargest(int largest[])
 {
+    int theLargest = 0;
 
-    return 0;
+    for (int i = 1; i < SIZE; i++)
+    {
+        if (largest[theLargest] < largest[i])
+        {
+            theLargest = i;
+        }
+    }
+
+    return theLargest;
 }
 /************************************************************
  *                    posOfSmallest                         *
@@ -92,7 +101,20 @@ int posOfLargest(int largest[])
  * holding the smallest value in the array passed to the    *
  * function.                                                *
  ************************************************************/
+int posOfSmallest(int smallest[])
+{
+    int theSmallest = 0;
 
+    for (int i = 1; i < SIZE; i++)
+    {
+        if (smallest[theSmallest] > smallest[i])
+        {
+            theSmallest = i;
+        }
+    }
+
+    return theSmallest;
+}
 
 /* SAMPLE RUN RESULTS
  
