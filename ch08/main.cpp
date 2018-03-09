@@ -37,9 +37,20 @@ int main()
  ************************************************************/
 int getSalesData(string name[], int sold[])
 {
-    cout << name[0];
+    int totalSales = 0;
 
-    return 0;
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << "Jars sold last month of " << setw(6) << name[i] << ": ";
+        cin >> sold[i];
+        cin.ignore();
+
+        totalSales += sold[i];
+    }
+    
+    cout << endl;
+
+    return totalSales;
 }
 
 /************************************************************
@@ -47,7 +58,22 @@ int getSalesData(string name[], int sold[])
  * Displays the sales report using information from the     *
  * arrays passed to it.
  ************************************************************/
-
+void displayReport(string name[], int sales[], int sold)
+{
+    string highSeller = name[0];
+    string lowSeller = name[0];
+    cout << "Salsa Sales Report" << endl << endl;
+    cout << "Name       Jars Sold" << endl;
+    cout << "____________________" << endl;
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << setw(6) << name[i] << right << setw(11) << sales[i] << endl;
+    }
+    cout << endl;
+    cout << "Total Sales: " << sold << endl;
+    cout << "High Seller: " << endl;
+    cout << "Low Seller : " << endl;
+}
 
 /************************************************************
  *                    posOfLargest                          *
@@ -55,7 +81,11 @@ int getSalesData(string name[], int sold[])
  * holding the largest value in the array passed to the     *
  * function.                                                *
  ************************************************************/
+int posOfLargest(int largest[])
+{
 
+    return 0;
+}
 /************************************************************
  *                    posOfSmallest                         *
  * Finds and returns the subscript of the array position    *
