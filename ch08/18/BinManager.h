@@ -10,5 +10,9 @@ class BinManager {
     public:
         BinManager();
         BinManager(int, std::string [], int []);
+        std::string getDescription(int) const;
+        int getQuantity(int) const;
+        bool addParts(int, int);
+        bool removeParts(int, int);
 };
 #endif
