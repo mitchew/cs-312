@@ -1,6 +1,12 @@
 #include "InvBin.h"
 #include <string>
 
+InvBin::InvBin()
+{
+    description = "empty";
+    qty = 0;
+}
+
 InvBin::InvBin(std::string d = "empty", int q = 0)
 {
     description = d;

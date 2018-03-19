@@ -7,6 +7,7 @@ class InvBin {
         int qty;
 
     public:
+        InvBin();
         InvBin(std::string, int);
         void setDescription(std::string);
         std::string getDescription() const;

@@ -30,11 +30,25 @@ int BinManager::getQuantity(int index) const
 
 bool BinManager::addParts(int binIndex, int q)
 {
-    bin[binIndex].setQty(q);
+    int currentQty = bin[binIndex].getQty();
+
+    currentQty += q;
+    bin[binIndex].setQty(currentQty);
+
     return true;
 }
 
-bool BinManager::removeParts(int BinIndex, int q)
+bool BinManager::removeParts(int binIndex, int q)
 {
+    int currentQty = bin[binIndex].getQty();
+
+    if (currentQty < q)
+    {
+        return false;
+    }
+
+    currentQty -= q;
+    bin[binIndex].setQty(currentQty);
+
     return true;
 }
