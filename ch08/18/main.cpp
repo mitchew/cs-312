@@ -5,10 +5,11 @@
 
 using namespace std;
 
-void addItems(BinManager);
+void addItems(BinManager&);
 void displayMenu();
 void displayReport(BinManager);
 int getChoice(int, int);
+bool removeItems(BinManager&);
 
 int main()
 {
@@ -50,6 +51,7 @@ int main()
                 continue;
             // remove items
             case 2:
+                removeItems(binManager);
                 continue;
             // display items
             case 3: 
@@ -63,18 +65,18 @@ int main()
         }
     }
 
-
     return 0;
 }
 
-void addItems(BinManager binManager)
+void addItems(BinManager& binManager)
 {
     int binNum;
     int count;
 
     displayReport(binManager);
 
-    cout << "Item number to add quantity: ";
+    cout << "Add items" << endl;
+    cout << "Bin number: ";
     cin >> binNum;
 
     cout << "Add how many? ";
@@ -125,14 +127,15 @@ int getChoice(int start, int end)
     return choice;
 }
 
-void removeItems(BinManager binManager)
+bool removeItems(BinManager& binManager)
 {
     int binNum;
     int count;
 
     displayReport(binManager);
 
-    cout << "Item number to remove quantity: ";
+    cout << "Remove item" << endl;
+    cout << "Bin number";
     cin >> binNum;
 
     cout << "Remove how many? ";
