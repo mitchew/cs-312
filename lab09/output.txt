@@ -1,0 +1,784 @@
+C:\Users\mitch\_lcsc\cs-312\lab09>main.exe
+index 0 93
+index 1 34
+index 2 35
+index 3 85
+index 4 73
+index 5 83
+index 6 38
+index 7 5
+index 8 0
+index 9 89
+index 10 92
+index 11 82
+index 12 18
+index 13 16
+index 14 23
+index 15 18
+index 16 55
+index 17 4
+index 18 67
+index 19 27
+Sorting ...
+comparing 93 and 34
+93 is larger, commencing swap
+swapping 93 at index 0 with 34 at index 1
+comparing 93 and 35
+93 is larger, commencing swap
+swapping 93 at index 1 with 35 at index 2
+comparing 93 and 85
+93 is larger, commencing swap
+swapping 93 at index 2 with 85 at index 3
+comparing 93 and 73
+93 is larger, commencing swap
+swapping 93 at index 3 with 73 at index 4
+comparing 93 and 83
+93 is larger, commencing swap
+swapping 93 at index 4 with 83 at index 5
+comparing 93 and 38
+93 is larger, commencing swap
+swapping 93 at index 5 with 38 at index 6
+comparing 93 and 5
+93 is larger, commencing swap
+swapping 93 at index 6 with 5 at index 7
+comparing 93 and 0
+93 is larger, commencing swap
+swapping 93 at index 7 with 0 at index 8
+comparing 93 and 89
+93 is larger, commencing swap
+swapping 93 at index 8 with 89 at index 9
+comparing 93 and 92
+93 is larger, commencing swap
+swapping 93 at index 9 with 92 at index 10
+comparing 93 and 82
+93 is larger, commencing swap
+swapping 93 at index 10 with 82 at index 11
+comparing 93 and 18
+93 is larger, commencing swap
+swapping 93 at index 11 with 18 at index 12
+comparing 93 and 16
+93 is larger, commencing swap
+swapping 93 at index 12 with 16 at index 13
+comparing 93 and 23
+93 is larger, commencing swap
+swapping 93 at index 13 with 23 at index 14
+comparing 93 and 18
+93 is larger, commencing swap
+swapping 93 at index 14 with 18 at index 15
+comparing 93 and 55
+93 is larger, commencing swap
+swapping 93 at index 15 with 55 at index 16
+comparing 93 and 4
+93 is larger, commencing swap
+swapping 93 at index 16 with 4 at index 17
+comparing 93 and 67
+93 is larger, commencing swap
+swapping 93 at index 17 with 67 at index 18
+comparing 93 and 27
+93 is larger, commencing swap
+swapping 93 at index 18 with 27 at index 19
+comparing 93 and 0
+93 is larger, commencing swap
+swapping 93 at index 19 with 0 at index 20
+comparing 34 and 35
+comparing 35 and 85
+comparing 85 and 73
+85 is larger, commencing swap
+swapping 85 at index 2 with 73 at index 3
+comparing 85 and 83
+85 is larger, commencing swap
+swapping 85 at index 3 with 83 at index 4
+comparing 85 and 38
+85 is larger, commencing swap
+swapping 85 at index 4 with 38 at index 5
+comparing 85 and 5
+85 is larger, commencing swap
+swapping 85 at index 5 with 5 at index 6
+comparing 85 and 0
+85 is larger, commencing swap
+swapping 85 at index 6 with 0 at index 7
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 82
+92 is larger, commencing swap
+swapping 92 at index 9 with 82 at index 10
+comparing 92 and 18
+92 is larger, commencing swap
+swapping 92 at index 10 with 18 at index 11
+comparing 92 and 16
+92 is larger, commencing swap
+swapping 92 at index 11 with 16 at index 12
+comparing 92 and 23
+92 is larger, commencing swap
+swapping 92 at index 12 with 23 at index 13
+comparing 92 and 18
+92 is larger, commencing swap
+swapping 92 at index 13 with 18 at index 14
+comparing 92 and 55
+92 is larger, commencing swap
+swapping 92 at index 14 with 55 at index 15
+comparing 92 and 4
+92 is larger, commencing swap
+swapping 92 at index 15 with 4 at index 16
+comparing 92 and 67
+92 is larger, commencing swap
+swapping 92 at index 16 with 67 at index 17
+comparing 92 and 27
+92 is larger, commencing swap
+swapping 92 at index 17 with 27 at index 18
+comparing 92 and 0
+92 is larger, commencing swap
+swapping 92 at index 18 with 0 at index 19
+comparing 92 and 93
+comparing 34 and 35
+comparing 35 and 73
+comparing 73 and 83
+comparing 83 and 38
+83 is larger, commencing swap
+swapping 83 at index 3 with 38 at index 4
+comparing 83 and 5
+83 is larger, commencing swap
+swapping 83 at index 4 with 5 at index 5
+comparing 83 and 0
+83 is larger, commencing swap
+swapping 83 at index 5 with 0 at index 6
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 82
+89 is larger, commencing swap
+swapping 89 at index 8 with 82 at index 9
+comparing 89 and 18
+89 is larger, commencing swap
+swapping 89 at index 9 with 18 at index 10
+comparing 89 and 16
+89 is larger, commencing swap
+swapping 89 at index 10 with 16 at index 11
+comparing 89 and 23
+89 is larger, commencing swap
+swapping 89 at index 11 with 23 at index 12
+comparing 89 and 18
+89 is larger, commencing swap
+swapping 89 at index 12 with 18 at index 13
+comparing 89 and 55
+89 is larger, commencing swap
+swapping 89 at index 13 with 55 at index 14
+comparing 89 and 4
+89 is larger, commencing swap
+swapping 89 at index 14 with 4 at index 15
+comparing 89 and 67
+89 is larger, commencing swap
+swapping 89 at index 15 with 67 at index 16
+comparing 89 and 27
+89 is larger, commencing swap
+swapping 89 at index 16 with 27 at index 17
+comparing 89 and 0
+89 is larger, commencing swap
+swapping 89 at index 17 with 0 at index 18
+comparing 89 and 92
+comparing 92 and 93
+comparing 34 and 35
+comparing 35 and 73
+comparing 73 and 38
+73 is larger, commencing swap
+swapping 73 at index 2 with 38 at index 3
+comparing 73 and 5
+73 is larger, commencing swap
+swapping 73 at index 3 with 5 at index 4
+comparing 73 and 0
+73 is larger, commencing swap
+swapping 73 at index 4 with 0 at index 5
+comparing 73 and 83
+comparing 83 and 85
+comparing 85 and 82
+85 is larger, commencing swap
+swapping 85 at index 7 with 82 at index 8
+comparing 85 and 18
+85 is larger, commencing swap
+swapping 85 at index 8 with 18 at index 9
+comparing 85 and 16
+85 is larger, commencing swap
+swapping 85 at index 9 with 16 at index 10
+comparing 85 and 23
+85 is larger, commencing swap
+swapping 85 at index 10 with 23 at index 11
+comparing 85 and 18
+85 is larger, commencing swap
+swapping 85 at index 11 with 18 at index 12
+comparing 85 and 55
+85 is larger, commencing swap
+swapping 85 at index 12 with 55 at index 13
+comparing 85 and 4
+85 is larger, commencing swap
+swapping 85 at index 13 with 4 at index 14
+comparing 85 and 67
+85 is larger, commencing swap
+swapping 85 at index 14 with 67 at index 15
+comparing 85 and 27
+85 is larger, commencing swap
+swapping 85 at index 15 with 27 at index 16
+comparing 85 and 0
+85 is larger, commencing swap
+swapping 85 at index 16 with 0 at index 17
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 5
+38 is larger, commencing swap
+swapping 38 at index 2 with 5 at index 3
+comparing 38 and 0
+38 is larger, commencing swap
+swapping 38 at index 3 with 0 at index 4
+comparing 38 and 73
+comparing 73 and 83
+comparing 83 and 82
+83 is larger, commencing swap
+swapping 83 at index 6 with 82 at index 7
+comparing 83 and 18
+83 is larger, commencing swap
+swapping 83 at index 7 with 18 at index 8
+comparing 83 and 16
+83 is larger, commencing swap
+swapping 83 at index 8 with 16 at index 9
+comparing 83 and 23
+83 is larger, commencing swap
+swapping 83 at index 9 with 23 at index 10
+comparing 83 and 18
+83 is larger, commencing swap
+swapping 83 at index 10 with 18 at index 11
+comparing 83 and 55
+83 is larger, commencing swap
+swapping 83 at index 11 with 55 at index 12
+comparing 83 and 4
+83 is larger, commencing swap
+swapping 83 at index 12 with 4 at index 13
+comparing 83 and 67
+83 is larger, commencing swap
+swapping 83 at index 13 with 67 at index 14
+comparing 83 and 27
+83 is larger, commencing swap
+swapping 83 at index 14 with 27 at index 15
+comparing 83 and 0
+83 is larger, commencing swap
+swapping 83 at index 15 with 0 at index 16
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 34 and 35
+comparing 35 and 5
+35 is larger, commencing swap
+swapping 35 at index 1 with 5 at index 2
+comparing 35 and 0
+35 is larger, commencing swap
+swapping 35 at index 2 with 0 at index 3
+comparing 35 and 38
+comparing 38 and 73
+comparing 73 and 82
+comparing 82 and 18
+82 is larger, commencing swap
+swapping 82 at index 6 with 18 at index 7
+comparing 82 and 16
+82 is larger, commencing swap
+swapping 82 at index 7 with 16 at index 8
+comparing 82 and 23
+82 is larger, commencing swap
+swapping 82 at index 8 with 23 at index 9
+comparing 82 and 18
+82 is larger, commencing swap
+swapping 82 at index 9 with 18 at index 10
+comparing 82 and 55
+82 is larger, commencing swap
+swapping 82 at index 10 with 55 at index 11
+comparing 82 and 4
+82 is larger, commencing swap
+swapping 82 at index 11 with 4 at index 12
+comparing 82 and 67
+82 is larger, commencing swap
+swapping 82 at index 12 with 67 at index 13
+comparing 82 and 27
+82 is larger, commencing swap
+swapping 82 at index 13 with 27 at index 14
+comparing 82 and 0
+82 is larger, commencing swap
+swapping 82 at index 14 with 0 at index 15
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 34 and 5
+34 is larger, commencing swap
+swapping 34 at index 0 with 5 at index 1
+comparing 34 and 0
+34 is larger, commencing swap
+swapping 34 at index 1 with 0 at index 2
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 73
+comparing 73 and 18
+73 is larger, commencing swap
+swapping 73 at index 5 with 18 at index 6
+comparing 73 and 16
+73 is larger, commencing swap
+swapping 73 at index 6 with 16 at index 7
+comparing 73 and 23
+73 is larger, commencing swap
+swapping 73 at index 7 with 23 at index 8
+comparing 73 and 18
+73 is larger, commencing swap
+swapping 73 at index 8 with 18 at index 9
+comparing 73 and 55
+73 is larger, commencing swap
+swapping 73 at index 9 with 55 at index 10
+comparing 73 and 4
+73 is larger, commencing swap
+swapping 73 at index 10 with 4 at index 11
+comparing 73 and 67
+73 is larger, commencing swap
+swapping 73 at index 11 with 67 at index 12
+comparing 73 and 27
+73 is larger, commencing swap
+swapping 73 at index 12 with 27 at index 13
+comparing 73 and 0
+73 is larger, commencing swap
+swapping 73 at index 13 with 0 at index 14
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 5 and 0
+5 is larger, commencing swap
+swapping 5 at index 0 with 0 at index 1
+comparing 5 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 18
+38 is larger, commencing swap
+swapping 38 at index 4 with 18 at index 5
+comparing 38 and 16
+38 is larger, commencing swap
+swapping 38 at index 5 with 16 at index 6
+comparing 38 and 23
+38 is larger, commencing swap
+swapping 38 at index 6 with 23 at index 7
+comparing 38 and 18
+38 is larger, commencing swap
+swapping 38 at index 7 with 18 at index 8
+comparing 38 and 55
+comparing 55 and 4
+55 is larger, commencing swap
+swapping 55 at index 9 with 4 at index 10
+comparing 55 and 67
+comparing 67 and 27
+67 is larger, commencing swap
+swapping 67 at index 11 with 27 at index 12
+comparing 67 and 0
+67 is larger, commencing swap
+swapping 67 at index 12 with 0 at index 13
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 34
+comparing 34 and 35
+comparing 35 and 18
+35 is larger, commencing swap
+swapping 35 at index 3 with 18 at index 4
+comparing 35 and 16
+35 is larger, commencing swap
+swapping 35 at index 4 with 16 at index 5
+comparing 35 and 23
+35 is larger, commencing swap
+swapping 35 at index 5 with 23 at index 6
+comparing 35 and 18
+35 is larger, commencing swap
+swapping 35 at index 6 with 18 at index 7
+comparing 35 and 38
+comparing 38 and 4
+38 is larger, commencing swap
+swapping 38 at index 8 with 4 at index 9
+comparing 38 and 55
+comparing 55 and 27
+55 is larger, commencing swap
+swapping 55 at index 10 with 27 at index 11
+comparing 55 and 0
+55 is larger, commencing swap
+swapping 55 at index 11 with 0 at index 12
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 34
+comparing 34 and 18
+34 is larger, commencing swap
+swapping 34 at index 2 with 18 at index 3
+comparing 34 and 16
+34 is larger, commencing swap
+swapping 34 at index 3 with 16 at index 4
+comparing 34 and 23
+34 is larger, commencing swap
+swapping 34 at index 4 with 23 at index 5
+comparing 34 and 18
+34 is larger, commencing swap
+swapping 34 at index 5 with 18 at index 6
+comparing 34 and 35
+comparing 35 and 4
+35 is larger, commencing swap
+swapping 35 at index 7 with 4 at index 8
+comparing 35 and 38
+comparing 38 and 27
+38 is larger, commencing swap
+swapping 38 at index 9 with 27 at index 10
+comparing 38 and 0
+38 is larger, commencing swap
+swapping 38 at index 10 with 0 at index 11
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 18
+comparing 18 and 16
+18 is larger, commencing swap
+swapping 18 at index 2 with 16 at index 3
+comparing 18 and 23
+comparing 23 and 18
+23 is larger, commencing swap
+swapping 23 at index 4 with 18 at index 5
+comparing 23 and 34
+comparing 34 and 4
+34 is larger, commencing swap
+swapping 34 at index 6 with 4 at index 7
+comparing 34 and 35
+comparing 35 and 27
+35 is larger, commencing swap
+swapping 35 at index 8 with 27 at index 9
+comparing 35 and 0
+35 is larger, commencing swap
+swapping 35 at index 9 with 0 at index 10
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 4
+23 is larger, commencing swap
+swapping 23 at index 5 with 4 at index 6
+comparing 23 and 34
+comparing 34 and 27
+34 is larger, commencing swap
+swapping 34 at index 7 with 27 at index 8
+comparing 34 and 0
+34 is larger, commencing swap
+swapping 34 at index 8 with 0 at index 9
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 4
+18 is larger, commencing swap
+swapping 18 at index 4 with 4 at index 5
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 0
+27 is larger, commencing swap
+swapping 27 at index 7 with 0 at index 8
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 4
+18 is larger, commencing swap
+swapping 18 at index 3 with 4 at index 4
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 0
+23 is larger, commencing swap
+swapping 23 at index 6 with 0 at index 7
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 16
+comparing 16 and 4
+16 is larger, commencing swap
+swapping 16 at index 2 with 4 at index 3
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 0
+18 is larger, commencing swap
+swapping 18 at index 5 with 0 at index 6
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 5
+comparing 5 and 4
+5 is larger, commencing swap
+swapping 5 at index 1 with 4 at index 2
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 0
+18 is larger, commencing swap
+swapping 18 at index 4 with 0 at index 5
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 4
+comparing 4 and 5
+comparing 5 and 16
+comparing 16 and 0
+16 is larger, commencing swap
+swapping 16 at index 3 with 0 at index 4
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 4
+comparing 4 and 5
+comparing 5 and 0
+5 is larger, commencing swap
+swapping 5 at index 2 with 0 at index 3
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 4
+comparing 4 and 0
+4 is larger, commencing swap
+swapping 4 at index 1 with 0 at index 2
+comparing 4 and 5
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+comparing 0 and 0
+comparing 0 and 4
+comparing 4 and 5
+comparing 5 and 16
+comparing 16 and 18
+comparing 18 and 18
+comparing 18 and 23
+comparing 23 and 27
+comparing 27 and 34
+comparing 34 and 35
+comparing 35 and 38
+comparing 38 and 55
+comparing 55 and 67
+comparing 67 and 73
+comparing 73 and 82
+comparing 82 and 83
+comparing 83 and 85
+comparing 85 and 89
+comparing 89 and 92
+comparing 92 and 93
+Number of swaps to sort: 136
+
+index 0 0
+index 1 0
+index 2 4
+index 3 5
+index 4 16
+index 5 18
+index 6 18
+index 7 23
+index 8 27
+index 9 34
+index 10 35
+index 11 38
+index 12 55
+index 13 67
+index 14 73
+index 15 82
+index 16 83
+index 17 85
+index 18 89
+index 19 92
+Enter a number to find (0-99) -1 to exit: 93
+
+Searching for 93
+mid is 9
+Searching for 93
+mid is 14
+Searching for 93
+mid is 17
+Searching for 93
+mid is 18
+Searching for 93
+mid is 19
+Searching for 93
+93 is not found
+index 0 0
+index 1 0
+index 2 4
+index 3 5
+index 4 16
+index 5 18
+index 6 18
+index 7 23
+index 8 27
+index 9 34
+index 10 35
+index 11 38
+index 12 55
+index 13 67
+index 14 73
+index 15 82
+index 16 83
+index 17 85
+index 18 89
+index 19 92
+Enter a number to find (0-99) -1 to exit: 92
+
+Searching for 92
+mid is 9
+Searching for 92
+mid is 14
+Searching for 92
+mid is 17
+Searching for 92
+mid is 18
+Searching for 92
+mid is 19
+92 found at index 19
+index 0 0
+index 1 0
+index 2 4
+index 3 5
+index 4 16
+index 5 18
+index 6 18
+index 7 23
+index 8 27
+index 9 34
+index 10 35
+index 11 38
+index 12 55
+index 13 67
+index 14 73
+index 15 82
+index 16 83
+index 17 85
+index 18 89
+index 19 92
+Enter a number to find (0-99) -1 to exit: -1
