@@ -7,22 +7,21 @@ using namespace std;
 
 int main()
 {
-    Fraction a(2,3);
-    Fraction b(5,7);
-
-    Fraction sum(1,1);
-    Fraction sub(1,1);
-    Fraction mult(1,1);
-    Fraction divi(1,1);
+    Fraction a(2, 3);
+    Fraction b(3, 4);
+    Fraction sum;
+    Fraction sub;
+    Fraction mul;
+    Fraction div;
 
     sum = a + b;
+    cout << a << " + " << b << " = " << sum << endl;
     sub = a - b;
-    mult = a * b;
-    divi = a / b;
+    cout << a << " - " << b << " = " << sub << endl;;
+    mul = a * b;
+    cout << a << " * " << b << " = " << mul << endl;;
+    div = a / b;
+    cout << a << " / " << b << " = " << div << endl;;
 
-    cout << "The sum is " << sum << endl;
-    cout << "The difference is " << sub << endl;
-    cout << "The product is " << mult << endl;
-    cout << "The result of division is " << divi << endl;
     return 0;
-}
+} 
