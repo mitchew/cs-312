@@ -25,7 +25,7 @@ void Fraction::setNum(int a)
     numerator = a;
 }
 
-int Fraction::getNum()
+int Fraction::getNum() const
 {
     return numerator;
 }
@@ -35,7 +35,7 @@ void Fraction::setDen(int a)
     denominator = a;
 }
 
-int Fraction::getDen()
+int Fraction::getDen() const
 {
     return denominator;
 }

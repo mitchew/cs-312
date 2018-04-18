@@ -13,8 +13,8 @@ class Fraction
     Fraction(int, int);
     void setNum(int);
     void setDen(int);
-    int getNum();
-    int getDen();
+    int getNum() const;
+    int getDen() const;
     friend Fraction operator+(Fraction a, Fraction b);
     friend Fraction operator-(Fraction a, Fraction b);
     friend Fraction operator*(Fraction a, Fraction b);
