@@ -5,10 +5,12 @@ class Month
 {
     private:
     int monthNum;
+    std::string monthName;
+    std::string monthNames[];
 
     public:
-    static std::string monthNames[];
     Month();
     Month(int);
+    void initializeMonthNames();
 };
 #endif

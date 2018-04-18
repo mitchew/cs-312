@@ -1,7 +1,11 @@
 #include "Month.h"
+
 Month::Month()
 {
+    initializeMonthNames();
+
     monthNum = 1;
+    monthName = monthNames[monthNum - 1];
 }
 
 Month::Month(int month)
@@ -9,7 +13,9 @@ Month::Month(int month)
     monthNum = month;
 }
 
-std::string Month::monthNames[] = {
+void Month::initializeMonthNames()
+{
+    std::string monthNames[] = {
     "January",
     "February",
     "March",
