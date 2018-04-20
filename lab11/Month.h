@@ -7,14 +7,19 @@ class Month
     private:
     int monthNum;
     std::string monthName;
-    std::string monthNames[12];
+    static std::string monthNames[12];
 
     public:
     Month();
     Month(int);
-    void initializeMonthNames();
-    void setMonthName(int a);
+    void setMonthNum(int a);
+    int getMonthNum();
     std::string getMonthName();
-    friend std::ostream & operator<<(std::ostream &out, Month a);
+    friend std::ostream & operator<<(std::ostream &out, Month &a);
+    friend std::istream & operator>>(std::istream &in, Month &a);
+    Month operator++();
+    Month operator++(int);
+    Month operator--();
+    Month operator--(int);
 };
 #endif
