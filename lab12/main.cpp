@@ -1,3 +1,4 @@
+// author: mitchell wilson
 // create an array of size 20
 // write to file in binary
 // read from file and print to screen
