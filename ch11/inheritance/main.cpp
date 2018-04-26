@@ -42,9 +42,9 @@ public:
            return Rational(r1.numerator - r2.numerator, r1.denominator);
        }
    };
-   friend Rational operator*(Rational r1)
+   friend Rational operator*(Rational r1, Rational r2)
    {
-       
+
    }
    friend Rational operator/(Rational r1, Rational r2);
 private:
