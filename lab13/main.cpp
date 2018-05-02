@@ -58,10 +58,10 @@ string prefixToInfix(istream & exprStream)
 
         switch(ch)
         {
-            case '+': return value1 + " + " + value2;
-            case '-': return value1 + " - " + value2;
-            case '*': return value1 + " * " + value2;
-            case '/': return value1 + " / " + value2;
+            case '+': return "(" + value1 + "+" + value2 + ")";
+            case '-': return "(" + value1 + "-" + value2 + ")";
+            case '*': return "(" + value1 + "*" + value2 + ")";
+            case '/': return "(" + value1 + "/" + value2 + ")";
             default: cout << "Bad input expression";
                 exit(1);
         }
