@@ -10,9 +10,7 @@
 
 using namespace std;
 
-//Prototype
-bool isOperator(char x);
-string prefixToInfix(istream &exprStream);
+string prefixToInfix(istream & exprStream);
 
 int main()
 {
@@ -34,43 +32,38 @@ int main()
     }
     return 0;
 }
+// shamelessly stolen from the book after hours of failure to complete myself
 
-bool isOperator(char x)
+string prefixToInfix(istream & exprStream)
 {
-    switch (x)
+    char ch = exprStream.peek();
+
+    while (isspace(ch))
     {
-        case '+':
-        case '-':
-        case '/':
-        case '*':
-            return true;
+        ch = exprStream.get();
+        ch = exprStream.peek();
     }
-    return false;
-}
-
-string prefixToInfix(istream &exprStream)
-{
-    char ch;
-    exprStream >> ch;
 
     if (isdigit(ch))
     {
-        int num;
-        ostringstream ostr;
-
-        exprStream >> num;
-        // convert expression to string and return it
-        ostr << num;
-
-        return ostr.str();
+        string number;
+        exprStream >> number;
+        return number;
     }
     else
     {
-        ostringstream ostr;
-        ostr << ch;
-        // needs two recursive calls to itself
-        // prefixToInfix(exprStream);
+        ch = exprStream.get();
+        string value1 = prefixToInfix(exprStream);
+        string value2 = prefixToInfix(exprStream);
 
-        return ostr.str();
+        switch(ch)
+        {
+            case '+': return value1 + " + " + value2;
+            case '-': return value1 + " - " + value2;
+            case '*': return value1 + " * " + value2;
+            case '/': return value1 + " / " + value2;
+            default: cout << "Bad input expression";
+                exit(1);
+        }
     }
 }
